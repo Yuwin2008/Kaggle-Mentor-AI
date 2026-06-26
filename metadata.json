@@ -1,0 +1,6 @@
+{
+  "name": "Kaggle Mentor AI",
+  "description": "Upload CSV datasets to trigger an interactive Kaggle coach pipeline including structural audits, Failure Agent validations, EDA summaries, strategy designs, and Notebook code generators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
