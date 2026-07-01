@@ -1,20 +1,390 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+
+# 🚀 Kaggle Mentor AI
+
+### Your AI Companion for Kaggle Competitions
+
+An AI-powered multi-agent platform that helps beginners and experienced data scientists navigate Kaggle competitions—from understanding datasets to generating notebooks and preparing submissions.
+
+![React](https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript)
+![Vite](https://img.shields.io/badge/Vite-7-646CFF?style=for-the-badge&logo=vite)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-4-38BDF8?style=for-the-badge&logo=tailwind-css)
+![AI Agents](https://img.shields.io/badge/AI-Multi--Agent-purple?style=for-the-badge)
+
+---
+
+## 🏆 Kaggle Vibe Coding Agents Capstone Project
+
+*Empowering Kaggle enthusiasts with AI-driven guidance from dataset exploration to competition submission.*
+
 </div>
 
-# Run and deploy your AI Studio app
+---
 
-This contains everything you need to run your app locally.
+# 📖 Overview
 
-View your app in AI Studio: https://ai.studio/apps/584f9791-2aae-43c9-8194-f25a258d2bfd
+Kaggle Mentor AI is an intelligent **multi-agent AI platform** designed to simplify the entire Kaggle competition workflow.
 
-## Run Locally
+Rather than functioning as a traditional chatbot, the application orchestrates multiple specialized AI agents that collaborate to guide users through every stage of a Kaggle competition—from understanding the dataset to generating competition-ready notebooks and submission files.
 
-**Prerequisites:**  Node.js
+Whether you're participating in your **first Kaggle competition** or aiming to climb the leaderboard, Kaggle Mentor AI provides structured, AI-powered assistance throughout your journey.
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+# ✨ Features
+
+## 📊 Dataset Analysis Agent
+
+- Automatic dataset understanding
+- Target variable detection
+- Missing value analysis
+- Feature overview
+- Data summary generation
+
+---
+
+## 📈 Exploratory Data Analysis (EDA)
+
+Automatically generates insightful visualizations including:
+
+- Distribution plots
+- Correlation heatmaps
+- Feature statistics
+- Data summaries
+- Missing value reports
+
+---
+
+## 🤖 AI Strategy Agent
+
+Receive intelligent recommendations for:
+
+- Data Cleaning
+- Feature Engineering
+- Model Selection
+- Cross Validation
+- Hyperparameter Tuning
+- Performance Optimization
+
+---
+
+## 📝 Notebook Generation
+
+Automatically generates starter notebooks including:
+
+- Data Loading
+- Data Cleaning
+- Feature Engineering
+- Model Training
+- Evaluation
+- Prediction
+- Submission File Creation
+
+---
+
+## 🏆 Competition Assistant
+
+Helps users:
+
+- Understand competition objectives
+- Interpret evaluation metrics
+- Recommend ML workflows
+- Improve leaderboard performance
+
+---
+
+## 🧠 Multi-Agent Architecture
+
+```
+Competition
+      │
+      ▼
+Dataset Agent
+      │
+      ▼
+EDA Agent
+      │
+      ▼
+Strategy Agent
+      │
+      ▼
+Notebook Agent
+      │
+      ▼
+Submission Agent
+```
+
+Each agent focuses on a specialized responsibility while collaborating with the others to create an intelligent end-to-end workflow.
+
+---
+
+# 🖥️ Tech Stack
+
+| Technology | Purpose |
+|------------|----------|
+| React | Frontend Framework |
+| TypeScript | Static Type Checking |
+| Vite | Development & Build Tool |
+| Tailwind CSS | UI Styling |
+| AI APIs | Intelligent Responses |
+| Multi-Agent Architecture | Agent Collaboration |
+
+---
+
+# 🚀 Installation & Running the Application
+
+## Prerequisites
+
+Install the following:
+
+- Node.js (v18+ recommended)
+- npm
+- Git
+
+Verify installation:
+
+```bash
+node -v
+npm -v
+git --version
+```
+
+---
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/Yuwin2008/Kaggle-Mentor-AI.git
+```
+
+---
+
+## 2️⃣ Navigate into the Project
+
+```bash
+cd Kaggle-Mentor-AI
+```
+
+---
+
+## 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+or
+
+```bash
+npm i
+```
+
+---
+
+## 4️⃣ Configure Environment Variables
+
+Create a `.env` file in the project root.
+
+Example:
+
+```env
+VITE_API_KEY=your_api_key
+```
+
+If applicable, add additional API keys such as:
+
+```env
+VITE_GEMINI_API_KEY=your_api_key
+VITE_OPENAI_API_KEY=your_api_key
+VITE_SUPABASE_URL=your_project_url
+VITE_SUPABASE_ANON_KEY=your_anon_key
+```
+
+---
+
+## 5️⃣ Start the Development Server
+
+Run:
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+Vite automatically reloads the application whenever you save changes.
+
+---
+
+## 6️⃣ Build for Production
+
+```bash
+npm run build
+```
+
+The optimized production build will be generated inside the `dist/` directory.
+
+---
+
+## 7️⃣ Preview the Production Build
+
+```bash
+npm run preview
+```
+
+Open:
+
+```text
+http://localhost:4173
+```
+
+---
+
+## 8️⃣ Lint the Project
+
+```bash
+npm run lint
+```
+
+---
+
+# 📜 Available Scripts
+
+| Command | Description |
+|----------|-------------|
+| `npm install` | Install project dependencies |
+| `npm run dev` | Start the development server |
+| `npm run build` | Build production files |
+| `npm run preview` | Preview production build |
+| `npm run lint` | Run ESLint |
+
+---
+
+# 🛠 Troubleshooting
+
+### Missing Dependencies
+
+```bash
+rm -rf node_modules package-lock.json
+npm install
+```
+
+---
+
+### Port Already in Use
+
+If port **5173** is occupied, Vite automatically assigns another available port.
+
+---
+
+### Environment Variables Not Loading
+
+- Ensure the file is named `.env`
+- Prefix variables with `VITE_`
+- Restart the development server after changes
+
+---
+
+# 📸 Screenshots
+
+Add screenshots of:
+
+- Home Page
+- Dataset Analysis
+- Auto EDA
+- Strategy Recommendations
+- Notebook Generation
+- Submission Generation
+
+---
+
+# 🔄 Workflow
+
+```text
+Competition
+      │
+      ▼
+Dataset Analysis
+      │
+      ▼
+Exploratory Data Analysis
+      │
+      ▼
+Strategy Recommendation
+      │
+      ▼
+Notebook Generation
+      │
+      ▼
+Model Training
+      │
+      ▼
+Submission File
+```
+
+---
+
+# 🌟 Why Kaggle Mentor AI?
+
+- ✅ Beginner Friendly
+- ✅ AI-Powered Guidance
+- ✅ Multi-Agent Collaboration
+- ✅ End-to-End Workflow
+- ✅ Faster Learning
+- ✅ Intelligent Recommendations
+- ✅ Modern Responsive Interface
+
+---
+
+# 🔮 Future Roadmap
+
+- User Authentication
+- Persistent Memory
+- Team Collaboration
+- Leaderboard Analytics
+- Cloud Notebook Execution
+- Explainable AI
+- AutoML Integration
+- Real-time Competition Insights
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push the branch
+5. Open a Pull Request
+
+---
+
+# 📬 Contact
+
+### 👨‍💻 GodofTunder2407(R.L.Yuwin)
+
+**GitHub:**  
+https://github.com/Yuwin2008
+
+**Discord:**  
+godofthunder_2407
+
+**YouTube:**  
+https://www.youtube.com/@GodofThunder2407
+
+---
+
+<div align="center">
+
+## ⭐ If you found this project useful, please consider giving it a Star!
+
+Made by **GodofThunder2407 (R. L. Yuwin)**
+
+</div>
