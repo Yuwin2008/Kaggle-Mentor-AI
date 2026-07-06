@@ -409,16 +409,22 @@ Submission File
 
 ---
 
-# ⚙ Technical Highlights
+#  Technical Implementation
 
-- Modular AI agent architecture
-- Prompt routing system
-- React component architecture
-- TypeScript type safety
-- Environment variable configuration
-- Responsive Tailwind UI
-- Vite development workflow
-- Scalable frontend design
+Kaggle Mentor AI follows a modular frontend architecture built with React and TypeScript.
+
+The application routes user requests through a prompt routing layer that delegates tasks to specialized AI agents.
+
+Each agent has a clearly defined responsibility, reducing prompt complexity while improving maintainability and scalability.
+
+The application also utilizes:
+
+- Component-based React architecture
+- Modular TypeScript design
+- Environment-based API configuration
+- Reusable UI components
+- Prompt routing
+- Multi-agent orchestration
 
 ---
 
