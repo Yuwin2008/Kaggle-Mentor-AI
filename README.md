@@ -372,14 +372,32 @@ If port **5173** is occupied, Vite automatically assigns another available port.
 
 # 📸 Screenshots
 
-Add screenshots of:
+## Home Page
+![Home Page](screenshots/home_page.png)
 
-- Home Page
-- Dataset Analysis
-- Auto EDA
-- Strategy Recommendations
-- Notebook Generation
-- Submission Generation
+## Dataset Detective Agent
+![Dataset Detective Agent](screenshots/dataset_detective_agent.png)
+
+## Dataset Analysis
+![Dataset Analysis](screenshots/dataset_analysis.png)
+
+## Failure Agent
+![Failure Agent](screenshots/failure_agent.png)
+
+## EDA CoPilot Agent
+![EDA CoPilot Agent](screenshots/eda_copilot_agent.png)
+
+## ML Strategy CoPilot Agent
+![ML Strategy CoPilot Agent](screenshots/ml_strategy_copilot_agent.png)
+
+## Notebook Creator Agent
+![Notebook Creator Agent](screenshots/notebook_creator_agent.png)
+
+## Leaderboard Coach Agent
+![Leaderboard Coach Agent](screenshots/leaderboard_coach_agent.png)
+
+## Visualization Agent
+![Visualization Agent](screenshots/visualization_agent.png)
 
 ---
 
