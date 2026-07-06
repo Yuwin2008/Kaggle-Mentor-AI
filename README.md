@@ -22,6 +22,34 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 
 ---
 
+# 🎯 Problem Statement
+
+Kaggle competitions involve multiple complex stages including dataset understanding, exploratory data analysis, feature engineering, model selection, notebook creation, model evaluation, and submission generation.
+
+Beginners often struggle to determine the next step, while experienced participants spend considerable time performing repetitive tasks.
+
+There is currently no unified AI assistant capable of guiding users throughout the complete competition workflow.
+
+Kaggle Mentor AI addresses this challenge through a collaborative multi-agent architecture where specialized AI agents work together to provide intelligent, contextual assistance at every stage of the competition lifecycle.
+
+---
+
+# 💡 Solution
+
+Kaggle Mentor AI introduces a modular multi-agent system where each AI agent specializes in a specific task.
+
+Instead of relying on a single general-purpose chatbot, multiple specialized agents collaborate to:
+
+• Analyze datasets
+• Perform exploratory data analysis
+• Recommend ML strategies
+• Generate starter notebooks
+• Guide submission preparation
+
+This architecture produces more focused, explainable, and context-aware recommendations while improving maintainability and scalability.
+
+---
+
 # 📖 Overview
 
 Kaggle Mentor AI is an intelligent **multi-agent AI platform** designed to simplify the entire Kaggle competition workflow.
@@ -29,6 +57,20 @@ Kaggle Mentor AI is an intelligent **multi-agent AI platform** designed to simpl
 Rather than functioning as a traditional chatbot, the application orchestrates multiple specialized AI agents that collaborate to guide users through every stage of a Kaggle competition—from understanding the dataset to generating competition-ready notebooks and submission files.
 
 Whether you're participating in your **first Kaggle competition** or aiming to climb the leaderboard, Kaggle Mentor AI provides structured, AI-powered assistance throughout your journey.
+
+---
+
+## 🎥 Demo
+
+📺 **YouTube Demo**
+
+https://www.youtube.com/watch?v=QY6ccoUa9B8
+
+---
+
+🌐 **Live Demo**
+
+https://kaggle-mentor-ai-409406860748.asia-southeast1.run.app
 
 ---
 
@@ -97,25 +139,41 @@ Helps users:
 ## 🧠 Multi-Agent Architecture
 
 ```
-Competition
+                    User
+                      │
+                      ▼
+        React + TypeScript Frontend
+                      │
+             Prompt Routing Layer
+                      │
+      ┌──────────┬──────────┬───────────┐
+      ▼          ▼          ▼           ▼
+ Dataset     EDA Agent  Strategy   Notebook
+  Agent                  Agent      Agent
       │
       ▼
-Dataset Agent
+ Submission Agent
       │
       ▼
-EDA Agent
-      │
-      ▼
-Strategy Agent
-      │
-      ▼
-Notebook Agent
-      │
-      ▼
-Submission Agent
+ Gemini API
 ```
 
 Each agent focuses on a specialized responsibility while collaborating with the others to create an intelligent end-to-end workflow.
+
+---
+
+# 🧠 Why Multi-Agent?
+
+Traditional AI assistants attempt to solve every task using a single prompt.
+
+Kaggle Mentor AI instead decomposes the workflow into specialized intelligent agents.
+
+| Traditional Chatbot | Kaggle Mentor AI |
+|---------------------|------------------|
+| Single Prompt | Multiple Specialized Agents |
+| Generic Responses | Domain Expertise |
+| Limited Workflow Context | End-to-End Competition Guidance |
+| Difficult to Scale | Modular Architecture |
 
 ---
 
@@ -329,6 +387,19 @@ Submission File
 
 ---
 
+# ⚙ Technical Highlights
+
+- Modular AI agent architecture
+- Prompt routing system
+- React component architecture
+- TypeScript type safety
+- Environment variable configuration
+- Responsive Tailwind UI
+- Vite development workflow
+- Scalable frontend design
+
+---
+
 # 🌟 Why Kaggle Mentor AI?
 
 - ✅ Beginner Friendly
@@ -343,14 +414,27 @@ Submission File
 
 # 🔮 Future Roadmap
 
-- User Authentication
-- Persistent Memory
-- Team Collaboration
-- Leaderboard Analytics
-- Cloud Notebook Execution
-- Explainable AI
-- AutoML Integration
-- Real-time Competition Insights
+✅ Authentication
+
+✅ Persistent Memory
+
+✅ AutoML
+
+✅ Team Collaboration
+
+✅ Cloud Notebook Execution
+
+✅ Leaderboard Analytics
+
+✅ Model Explainability
+
+✅ Competition Timeline
+
+✅ Dataset Version Tracking
+
+✅ Multi-LLM Support
+
+✅ Agent Memory
 
 ---
 
