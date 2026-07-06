@@ -432,6 +432,16 @@ Submission File
 
 ---
 
+# ☁ Deployment
+
+The application is deployed on Google Cloud Run.
+
+Live URL:
+
+https://kaggle-mentor-ai-409406860748.asia-southeast1.run.app
+
+---
+
 # 🔮 Future Roadmap
 
 ✅ Authentication
