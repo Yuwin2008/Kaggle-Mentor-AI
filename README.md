@@ -22,6 +22,24 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 
 ---
 
+## 📚 Table of Contents
+
+- [Problem Statement](#-problem-statement)
+- [Solution](#-solution)
+- [Overview](#-overview)
+- [Demo](#-demo)
+- [Features](#-features)
+- [Multi-Agent Architecture](#-multi-agent-architecture)
+- [Why Multi-Agent?](#-why-multi-agent)
+- [Tech Stack](#-tech-stack)
+- [Installation](#-installation--running-the-application)
+- [Available Scripts](#-available-scripts)
+- [Workflow](#-workflow)
+- [Technical Highlights](#-technical-highlights)
+- [Future Roadmap](#-future-roadmap)
+- [Contributing](#-contributing)
+- [Contact](#-contact)
+
 # 🎯 Problem Statement
 
 Kaggle competitions involve multiple complex stages including dataset understanding, exploratory data analysis, feature engineering, model selection, notebook creation, model evaluation, and submission generation.
