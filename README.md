@@ -22,7 +22,7 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 
 ---
 
-## 📚 Table of Contents
+# 📚 Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [Solution](#-solution)
@@ -39,6 +39,8 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 - [Future Roadmap](#-future-roadmap)
 - [Contributing](#-contributing)
 - [Contact](#-contact)
+
+---
 
 # 🎯 Problem Statement
 
