@@ -39,6 +39,7 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 - [Deployment](#-deployment)
 - [Future Roadmap](#-future-roadmap)
 - [Contributing](#-contributing)
+- [Acknowledgements](#-acknowledgements)
 - [Contact](#-contact)
 
 ---
@@ -478,6 +479,14 @@ Contributions are welcome!
 3. Commit your changes
 4. Push the branch
 5. Open a Pull Request
+
+---
+
+# ❤️ Acknowledgements
+
+Built as part of the Kaggle Vibe Coding Agents Capstone.
+
+Special thanks to the Kaggle community and everyone contributing to open-source AI and machine learning.
 
 ---
 
