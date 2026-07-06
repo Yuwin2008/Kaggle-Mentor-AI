@@ -516,7 +516,7 @@ Special thanks to the Kaggle community and everyone contributing to open-source 
 
 # 📬 Contact
 
-### 👨‍💻 GodofTunder2407(R.L.Yuwin)
+### 👨‍💻 GodofThunder2407(R.L.Yuwin)
 
 **GitHub:**  
 https://github.com/Yuwin2008
