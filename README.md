@@ -36,6 +36,7 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 - [Available Scripts](#-available-scripts)
 - [Workflow](#-workflow)
 - [Technical Highlights](#-technical-highlights)
+- [Deployment](#-deployment)
 - [Future Roadmap](#-future-roadmap)
 - [Contributing](#-contributing)
 - [Contact](#-contact)
