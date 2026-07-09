@@ -22,6 +22,22 @@ An AI-powered multi-agent platform that helps beginners and experienced data sci
 
 *Empowering Kaggle enthusiasts with AI-driven guidance from dataset exploration to competition submission.*
 
+Kaggle Mentor AI was developed as part of the **Kaggle Vibe Coding Agents Capstone Project 2026**.
+
+This project was created to explore the capabilities of modern AI agent systems in solving real-world machine learning workflow challenges. The goal was to design an intelligent assistant capable of guiding users throughout the entire Kaggle competition lifecycle—from dataset exploration to submission generation.
+
+The project aligns closely with the competition's focus on:
+
+* Intelligent AI agents
+* Multi-agent collaboration
+* Developer productivity
+* AI-assisted workflows
+* Educational accessibility
+* Practical deployment of agent systems
+
+I would like to thank the Kaggle team and the Google Developer ecosystem for organizing initiatives that encourage innovation in AI agents and human-AI collaboration.
+
+
 </div>
 
 ---
@@ -55,6 +71,43 @@ Instead of relying on a single general-purpose chatbot, multiple specialized age
 Kaggle Mentor AI is an intelligent multi-agent AI platform designed to simplify the entire Kaggle competition workflow.
 
 Whether you're participating in your first Kaggle competition or aiming to climb the leaderboard, Kaggle Mentor AI provides structured, AI-powered assistance throughout your journey.
+
+---
+
+# 🤖 Google Agent Development Kit (Google ADK)
+
+Kaggle Mentor AI follows a **multi-agent orchestration architecture** inspired by principles from the **Google Agent Development Kit (Google ADK)** ecosystem.
+
+The system decomposes complex machine learning workflows into specialized AI agents, each responsible for a clearly defined task:
+
+| Agent            | Responsibility                                  |
+| ---------------- | ----------------------------------------------- |
+| Dataset Agent    | Dataset understanding and feature analysis      |
+| EDA Agent        | Exploratory data analysis and visualization     |
+| Strategy Agent   | Model recommendations and ML strategy           |
+| Notebook Agent   | Starter notebook generation                     |
+| Submission Agent | Submission preparation and competition guidance |
+
+This design follows the core Google ADK philosophy of:
+
+* Task specialization
+* Agent collaboration
+* Modular orchestration
+* Tool-augmented reasoning
+* Scalable AI systems
+
+Rather than relying on a single monolithic AI assistant, Kaggle Mentor AI uses specialized agents that communicate through a prompt-routing layer to provide more accurate, explainable, and context-aware recommendations.
+
+### Google ADK Pattern Used
+
+✅ Multi-Agent Architecture
+✅ Agent Orchestration
+✅ Tool-Augmented Agents
+✅ Prompt Routing
+✅ Specialized Agent Responsibilities
+✅ Modular Agent Design
+
+This architecture improves maintainability, scalability, and reasoning quality while enabling future expansion into persistent memory, autonomous workflows, and multi-LLM support.
 
 ---
 
