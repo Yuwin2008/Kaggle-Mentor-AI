@@ -363,6 +363,6 @@ https://www.youtube.com/@GodofThunder2407
 
 ## ⭐ If you found this project useful, please consider giving it a Star!
 
-Made with ❤️ by **GodofThunder2407 (R. L. Yuwin)**
+Made  by **GodofThunder2407 (R. L. Yuwin)**
 
 </div>
